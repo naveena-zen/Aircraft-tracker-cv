@@ -1,12 +1,5 @@
 # Optical Flow Based Aircraft Feature Tracking System
 
-> **Suggested project names (pick one):**
-> - **AeroVision** — Aircraft Feature Detection & Optical Flow Tracker
-> - **FlowTrack CV** — Corner Detection & Motion Tracking in Aerial Videos
-> - **FeatureFlow** — Shi-Tomasi + Lucas-Kanade Video Feature Tracker
-
----
-
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green?logo=opencv&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-1.x-orange?logo=numpy&logoColor=white)
