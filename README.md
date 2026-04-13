@@ -250,13 +250,6 @@ cd <Aircraft-tracker-cv>
 pip install -r requirements.txt
 ```
 
-> **requirements.txt** contains:
-> ```
-> opencv-python
-> numpy
-> matplotlib
-> ```
-
 ### 3. Place input videos
 
 Put your `.mp4` or `.avi` video files inside the `videos/` folder:
