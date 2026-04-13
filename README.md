@@ -241,7 +241,7 @@ aircraft-tracker/
 
 ```bash
 git clone https://github.com/<naveena-zen>/<Aircraft-tracker-cv>.git
-cd <your-repo-name>
+cd <Aircraft-tracker-cv>
 ```
 
 ### 2. Install dependencies
