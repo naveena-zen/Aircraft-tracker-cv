@@ -240,7 +240,7 @@ aircraft-tracker/
 ### 1. Clone or download the project
 
 ```bash
-git clone https://github.com/<naveena-zen>/<your-repo-name>.git
+git clone https://github.com/<naveena-zen>/<Aircraft-tracker-cv>.git
 cd <your-repo-name>
 ```
 
