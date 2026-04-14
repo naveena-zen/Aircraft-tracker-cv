@@ -80,14 +80,10 @@ def create_charts(video_stem, output_dir, tracking_counts, displacements, corner
         plt.savefig(os.path.join(charts_dir, f"{video_stem}_displacement.png"), dpi=150)
         plt.close()
 
-    # -----------------------------------------------------------------
-    # Chart 3: Corner Detection Confidence Distribution
-    # -----------------------------------------------------------------
     if corner_scores is not None and len(corner_scores) > 0:
         plt.figure(figsize=(10, 6))
         n, bins, patches = plt.hist(corner_scores, bins=20, edgecolor='black', alpha=0.7)
 
-        # Apply different colours for each bar
         cmap = plt.get_cmap('viridis')
         for i, p in enumerate(patches):
             p.set_facecolor(cmap(i / float(max(1, len(patches) - 1))))
