@@ -41,19 +41,9 @@ def detect_corners(frame_bgr: np.ndarray,
         minDistance=min_distance,
         blockSize=block_size
     )
-
-    return corners  # shape (N, 1, 2) float32, or None
-
-
-# ===========================================================================
-# Section 2 — Statistical Charts
-# (originally: chart_generator.py)
-# ===========================================================================
+    return corners 
 
 def create_charts(video_stem, output_dir, tracking_counts, displacements, corner_scores):
-    """
-    Generate and save statistical charts for the tracking pipeline.
-    """
     charts_dir = os.path.join(output_dir, "charts")
     os.makedirs(charts_dir, exist_ok=True)
 
