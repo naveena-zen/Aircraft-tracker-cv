@@ -46,10 +46,7 @@ def detect_corners(frame_bgr: np.ndarray,
 def create_charts(video_stem, output_dir, tracking_counts, displacements, corner_scores):
     charts_dir = os.path.join(output_dir, "charts")
     os.makedirs(charts_dir, exist_ok=True)
-
-    # ensure no interactive plot shows up
     plt.ioff()
-
     if tracking_counts:
         frames = [item[0] for item in tracking_counts]
         counts = [item[1] for item in tracking_counts]
