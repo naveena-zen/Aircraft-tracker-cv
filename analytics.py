@@ -50,9 +50,6 @@ def create_charts(video_stem, output_dir, tracking_counts, displacements, corner
     # ensure no interactive plot shows up
     plt.ioff()
 
-    # -----------------------------------------------------------------
-    # Chart 1: Tracking Performance  array format: [(frame_idx, count)]
-    # -----------------------------------------------------------------
     if tracking_counts:
         frames = [item[0] for item in tracking_counts]
         counts = [item[1] for item in tracking_counts]
