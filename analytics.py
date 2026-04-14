@@ -64,9 +64,6 @@ def create_charts(video_stem, output_dir, tracking_counts, displacements, corner
         plt.savefig(os.path.join(charts_dir, f"{video_stem}_tracking_performance.png"), dpi=150)
         plt.close()
 
-    # -----------------------------------------------------------------
-    # Chart 2: Point Displacement Over Frames
-    # -----------------------------------------------------------------
     if displacements:
         frames = [item[0] for item in displacements]
         avg_disp = [item[1] for item in displacements]
