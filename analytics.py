@@ -1,36 +1,10 @@
-# encoding: utf-8
-"""
-analytics.py
-------------
-Unified analytics module for the Optical Flow Based Aircraft Feature
-Tracking System.
-
-This file consolidates the following original modules (unchanged logic):
-  - corners_detector.py  → detect_corners()
-  - chart_generator.py   → create_charts()
-  - heatmap_generator.py → generate_heatmap(), _jet_cmap()
-  - scratch.py           → survivor-index test utility (kept as reference)
-"""
-
-# ---------------------------------------------------------------------------
-# Standard / third-party imports (union of all original module imports)
-# ---------------------------------------------------------------------------
 import os
-
 import cv2
 import numpy as np
-
 import matplotlib
-# Use 'Agg' backend to avoid requiring an X server or opening GUI windows
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors   # noqa: F401  (kept from heatmap_generator)
-
-
-# ===========================================================================
-# Section 1 — Corner Detection
-# (originally: corners_detector.py)
-# ===========================================================================
 
 def detect_corners(frame_bgr: np.ndarray,
                    max_corners: int = 200,
