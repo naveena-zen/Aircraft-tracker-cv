@@ -8,21 +8,6 @@
 
 ---
 
-## Table of Contents
-
-- [Project Description](#project-description)
-- [Domain](#domain)
-- [Algorithms Used](#algorithms-used)
-- [What the Project Detects](#what-the-project-detects)
-- [Output Images](#output-images)
-- [Results](#results)
-- [Enhancements](#enhancements)
-- [Project Structure](#project-structure)
-- [How to Run](#how-to-run)
-- [Tech Stack](#tech-stack)
-
----
-
 ## Project Description
 
 This project demonstrates two fundamental Computer Vision techniques — **Shi-Tomasi Corner Detection** and **Lucas-Kanade Optical Flow Tracking** — applied to real aerial (aircraft) video footage.
