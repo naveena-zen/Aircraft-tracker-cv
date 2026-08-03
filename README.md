@@ -173,8 +173,7 @@ Automatically tagging these frames allows analysts to:
 - Apply targeted stabilisation or further analysis only to flagged segments
 
 ### 4. File Structure Cleanup
-- Merged `chart_generator.py`, `heatmap_generator.py`, `corners_detector.py`, and `scratch.py` into a single **`analytics.py`** file
-- All public functions (`detect_corners`, `create_charts`, `generate_heatmap`, `detect_turbulence`, `draw_turbulence_warning`) are importable from one place
+
 - Reduces the number of top-level files and makes the codebase easier to navigate and maintain
 - All existing functionality, output filenames, and results are fully preserved
 
