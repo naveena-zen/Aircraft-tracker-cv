@@ -18,8 +18,6 @@ The system reads a video file, identifies the most significant corner/feature po
 
 ## Domain
 
-**Image Analytics and Computer Vision**
-
 This project sits at the intersection of two closely related areas:
 
 | Domain               | What this project does in that domain                          |
