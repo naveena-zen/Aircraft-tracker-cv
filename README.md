@@ -172,10 +172,6 @@ Automatically tagging these frames allows analysts to:
 - Correlate visual turbulence events with flight data recorder outputs
 - Apply targeted stabilisation or further analysis only to flagged segments
 
-### 4. File Structure Cleanup
-
----
-
 ## Project Structure
 
 ```
