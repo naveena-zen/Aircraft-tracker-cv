@@ -174,9 +174,6 @@ Automatically tagging these frames allows analysts to:
 
 ### 4. File Structure Cleanup
 
-- Reduces the number of top-level files and makes the codebase easier to navigate and maintain
-- All existing functionality, output filenames, and results are fully preserved
-
 ---
 
 ## Project Structure
