@@ -16,6 +16,18 @@ The system reads a video file, identifies the most significant corner/feature po
 
 ---
 
+## Tech Stack
+
+| **Technology** | **Version** | **Purpose** |
+|---|---|---|
+| **Python** | 3.10+ | Core programming language |
+| **OpenCV (`cv2`)** | 4.x | Image processing, corner detection, optical flow |
+| **NumPy** | 1.x | Array operations and numerical computation |
+| **Matplotlib** | 3.x | Generating analytical and statistical tracking charts |
+
+> No deep learning frameworks, no pre-trained models, no external APIs.  
+> Pure classical Computer Vision — fully explainable and lightweight.
+
 ## Domain
 
 This project sits at the intersection of two closely related areas:
