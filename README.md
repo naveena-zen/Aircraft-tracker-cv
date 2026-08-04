@@ -207,15 +207,3 @@ aircraft-tracker/
     ├── <video>_output_frame_mid2.jpg   ← ⚠ overlay shown if turbulent
     └── <video>_output_final.jpg        ← ⚠ overlay shown if turbulent
 ```
-
-## Tech Stack
-
-| **Technology** | **Version** | **Purpose** |
-|---|---|---|
-| **Python** | 3.10+ | Core programming language |
-| **OpenCV (`cv2`)** | 4.x | Image processing, corner detection, optical flow |
-| **NumPy** | 1.x | Array operations and numerical computation |
-| **Matplotlib** | 3.x | Generating analytical and statistical tracking charts |
-
-> No deep learning frameworks, no pre-trained models, no external APIs.  
-> Pure classical Computer Vision — fully explainable and lightweight.
