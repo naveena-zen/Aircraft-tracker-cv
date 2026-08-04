@@ -28,6 +28,8 @@ The system reads a video file, identifies the most significant corner/feature po
 > No deep learning frameworks, no pre-trained models, no external APIs.  
 > Pure classical Computer Vision — fully explainable and lightweight.
 
+---
+
 ## Domain
 
 This project sits at the intersection of two closely related areas:
